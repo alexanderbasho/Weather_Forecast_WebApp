@@ -1,0 +1,132 @@
+body{
+    background: url(citychoicebg.jpg) no-repeat;
+	background-size: cover;
+}
+.main{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2{
+    text-align:center;
+}
+select{
+    outline: none;
+    background: #2c3e50;
+    border: 0 !important;
+    appearance:none;
+    box-shadow:none;
+}
+.select1{
+  position: relative;
+  display: block;
+  width: 20em;
+  height:3em; 
+  background: #2c3e50 ; 
+  overflow: hidden;
+  line-height: 3;
+  border-radius:.25em;
+}
+
+select{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding: 0 0 0 .5em;
+    color:white;
+    font-size: 1em;
+    letter-spacing: .8px;
+    cursor: pointer;
+}
+
+.select1::after{
+    content:'\25bc';
+    top:0;
+    bottom:0;
+    right:0;
+    padding: 0 1em;
+    position: absolute;
+    background: #34495e;
+    pointer-events: none;
+}
+
+.select1:hover::after{
+    color:#31a3e4;
+}
+.select1::after{
+    transition:.2s all ease;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to right, #64b3f4,#c2e59c);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: .4s;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+button:hover{
+	background: linear-gradient(to right,#c2e59c,#64b3f4);
+}
+
+h2{
+	color: white;
+	font-size: 60px;
+	width: 500px;
+    font-weight: 500;
+    padding-top: 130px;
+    padding-left: 35%;
+	text-align: center;
+}
+
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo {
+    width: 200px;
+    height: auto;
+    padding: 0px 40px;
+    margin-top: -60px;
+}
+.navbar ul{
+	float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active{
+	background: linear-gradient(to right,#64b3f4,#c2e59c);
+	border-radius: 2px;
+}
+.navbar ul li a:hover{
+	background: linear-gradient(to right,#c2e59c,#64b3f4);
+	border-radius: 2px;
+}

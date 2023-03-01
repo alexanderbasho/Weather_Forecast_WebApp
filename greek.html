@@ -1,0 +1,28 @@
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Διάλεξε τη γλώσσα σου</title>
+    <link rel="stylesheet" type="text/css" href="firstindexStylesheet.css">
+    <style>
+		body {background: url(greece.jpg) no-repeat; background-size: cover; }
+	</style>
+</head>
+<body>
+<div class="language">
+	<h2>Διάλεξε τη γλώσσα σου</h2>
+	
+	<ul>
+		<li>
+            <input type="radio" name="language" id="en" onclick="javascript:window.location.href='index.html'"/>
+            <label for="en">Αγγλικά</label>
+            <div class="check"></div>
+		</li>
+		<li>
+			<input type="radio" name="language" id="el" checked/>
+			<label for="el">Ελληνικά</label>
+			<div class="check"></div>
+        </li>
+    </ul>
+    <button type="button" class="btn-style" onclick="javascript:window.location.href='el/index.php'">Επιλογή</button>
+</div>
+</body></html>

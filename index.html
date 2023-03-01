@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Select your language</title>
+	<link rel="stylesheet" type="text/css" href="firstindexStylesheet.css">
+	<style>
+		body {background: url(unitedkingdom.jpg) no-repeat; background-size: cover; }
+	</style>
+</head>
+<body>
+
+<div class="language">
+	<h2>Select your language</h2>
+	
+	<ul>
+		<li>
+			<input type="radio" name="language" id="en" checked />
+      <label for="en">English</label>
+			<div class="check"></div>
+		</li>
+		
+		<li>
+			<input type="radio" name="language" id="el" onclick="javascript:window.location.href='greek.html'" />
+			<label for="el">Greek</label>
+			<div class="check"></div>
+    </li>
+  </ul>
+  <button type="button" class="btn-style" onclick="javascript:window.location.href='en/index.php'">Select</button>
+</div>
+</body></html>

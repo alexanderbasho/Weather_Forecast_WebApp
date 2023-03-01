@@ -1,0 +1,31 @@
+<html lang="el">
+  <head>
+    <meta charset="utf-8">
+    <title>Επικοινωνία - Πρόγνωση Basho</title>
+    <link rel="stylesheet" href="contactStylesheet.css">
+  </head>
+  <body>
+  <nav class="navbar">
+        <img class="logo" src="logo.png">
+        <ul>
+            <li><a href="home.html">Αρχική</a></li>
+            <li><a href="citychoice.php">Πρόγνωση καιρού</a></li>
+            <li><a href="about.html">Σχετικά με εμάς</a></li>
+            <li><a class="active" href="contact.html">Επικοινωνία</a></li>
+            <li><a href="../en/contact.html">Αλλαγή Γλώσσας</a></li>
+        </ul>
+</nav>
+<div class="contact">
+  <h1>Επικοινωνία</h1>
+  <div class="contactborder"></div>
+  <form class="form" action="contactsql.php" method="post">
+    <input type="username" name="username" class="forminput" placeholder="Όνομα" required>
+    <input type="email" name="email" class="forminput" placeholder="Email" required>
+    <textarea class="forminput" name="message" placeholder="Μήνυμα" required></textarea>
+    <input type="submit" class="formsubmit" value="Στείλτε">
+  </form>
+</div>
+
+
+  </body>
+</html>

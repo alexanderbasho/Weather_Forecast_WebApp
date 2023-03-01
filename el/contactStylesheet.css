@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(contact.jpg) no-repeat;
+	  background-size: cover;
+  }
+  
+  .contact h1{
+	color: white;
+	text-align: center; 
+	margin-top: 10%;
+	font-size: 55px;
+  }
+  .contactborder{
+	width: 330px;
+	background: linear-gradient(to right, #c2e59c,#64b3f4);
+	margin-top: 3%;
+	margin-left: 40%;
+	height: 11px;
+	border-radius: 10px;
+  }
+  
+  .form{
+	overflow: hidden;
+	max-width: 601px;
+	margin-top: 5%;
+	margin-left: 32%;
+	padding: 0 10px;
+  }
+  
+  .forminput{
+	width: 100%;
+	background: white;
+	margin: 15px 0;
+	box-sizing: border-box;
+	border: 0;
+	color: black;
+	padding: 21px 41px;
+	outline: none;
+	display: block;
+	transition: 0.4s;
+	border-radius: 40px;
+  }
+  .forminput:focus{
+	box-shadow: 0 0 11px 5px white;
+  }
+  textarea.forminput{
+	height: 121px;
+	resize: none;
+  }
+  .formsubmit{
+	height: 50px;
+	width: 250px;
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	background: linear-gradient(to right, #64b3f4,#c2e59c);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 25px;
+	transition: .4s;
+	margin-left: 30%;
+	margin-top: 0%;
+  }
+  .formsubmit:hover{
+	background: linear-gradient(to right, #c2e59c,#64b3f4);
+  }
+  
+  .navbar{
+	  position: fixed;
+	  height: 80px;
+	  width: 100%;
+	  top: 0;
+	  left: 0;
+	  background: rgba(0,0,0,0.4);
+  }
+  .navbar .logo {
+	  width: 200px;
+	  height: auto;
+	  padding: 0px 40px;
+	  margin-top: -60px;
+  }
+  .navbar ul{
+	  float: right;
+	  margin-right: 20px;
+	  margin-top: 0px;
+  }
+  .navbar ul li{
+	  list-style: none;
+	  margin: 0 8px;
+	  display: inline-block;
+	  line-height: 80px;
+  }
+  .navbar ul li a{
+	  font-size: 20px;
+	  font-family: Arial, Helvetica, sans-serif;
+	  color: white;
+	  padding: 6px 13px;
+	  text-decoration: none;
+	  transition: .4s;
+  }
+  .navbar ul li a.active{
+	  background: linear-gradient(to right,#64b3f4,#c2e59c);
+	  border-radius: 2px;
+  }
+  .navbar ul li a:hover{
+	  background: linear-gradient(to right,#c2e59c,#64b3f4);
+	  border-radius: 2px;
+  }

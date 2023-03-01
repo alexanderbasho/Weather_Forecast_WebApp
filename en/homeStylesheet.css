@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo {
+    width: 200px;
+    height: auto;
+    padding: 0px 40px;
+    margin-top: -60px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active{
+	background: linear-gradient(to right,#64b3f4,#c2e59c);
+	border-radius: 2px;
+}
+.navbar ul li a:hover{
+	background: linear-gradient(to right,#c2e59c,#64b3f4);
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: Arial, Helvetica, sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: 500;
+	text-align: center;
+}
+.center h3{
+	color: white;
+	font-weight: 500;
+	margin-top: 30px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button {
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to right, #64b3f4,#c2e59c);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: .4s;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.buttons button:hover{
+	background: linear-gradient(to right,#c2e59c,#64b3f4);
+}
